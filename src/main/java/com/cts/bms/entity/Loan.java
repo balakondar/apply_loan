@@ -1,9 +1,5 @@
 package com.cts.bms.entity;
 
-
-
-import java.time.LocalDate;
-
 import org.springframework.data.annotation.Id;
 
 public class Loan {
