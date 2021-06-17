@@ -25,8 +25,8 @@ public class LoanApplication {
 	}
 	
 	@Bean
-	public WebClient.Builder getWebClientBuilder(){
-		return WebClient.builder();
+	public WebClient getWebClient(){
+		return WebClient.builder().baseUrl("http://localhost:9091").build();
 	}
 	
 	@Bean
